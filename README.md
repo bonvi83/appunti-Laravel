@@ -22,4 +22,6 @@ Se non funziona:
 php -S localhost:8000 -t public
 ```
 
+5. Entra nella cartella `resource`, `views` e cancella il file `welcome.blade.php`
+
 ### CHE DIO CE LA MANDI BUONA!
