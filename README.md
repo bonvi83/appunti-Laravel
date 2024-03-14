@@ -24,4 +24,14 @@ php -S localhost:8000 -t public
 
 5. Entra nella cartella `resource`, `views` e cancella il file `welcome.blade.php`
 
+6. Crea una file `.blade.php`
+
+7. Entra nella cartella `routes`, apri il file `web.php` e cambia il nome del file cancellato, con quello che hai creato nella riga
+
+```
+Route::get('/', function () {
+   return view('nome del file che hai creato')
+});
+```
+
 ### CHE DIO CE LA MANDI BUONA!
