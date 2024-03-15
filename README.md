@@ -4,10 +4,10 @@
 
 1. Crea una nuova cartella con il nome del progetto
 2. Apri la cartella in VSCode
-3. Apri un terminale da VSCode ed esegui il comando per installare
+3. Apri un terminale da VSCode ed esegui il comando per installare (in questo caso l'ultima versione della 9)
 
 ```
-composer create-project laravel/laravel:^9.2 .
+composer create-project laravel/laravel:^9.x .
 ```
 
 4. Avviamo l'artisan
