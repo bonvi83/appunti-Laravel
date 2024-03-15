@@ -36,26 +36,40 @@ Route::get('/', function () {
 
 ## Creazione di un nuovo progetto da template
 
-1. scarica la repo ed impostala in VS Code
+1. scarica la repo ed aprila in VS Code, oppure clona direttamente la repo template
 
-2. installa Composer
+2. apri un terminale ed installa Composer (per il back end)
 
 ```
 composer install
 ```
 
-3. instamma npn
+3. per far partire il server lato back end
+
+```
+php artisan serve
+```
+
+4. apri un nuovo terminale ed installa node modules (per il front end)
 
 ```
 npm install
 ```
 
-4. avvia il server
+5. avvia il server lato front end
 
 ```
 npm run dev
 ```
 
-5. copia il file `.env.example` e rinominalo `.env`
+6. copia il file `.env.example` e rinominalo `.env` nella stessa posizione
+
+7. apri un altro terminale e crea una APP KEY (oppure sulla pagine di errore clicca su generate key)
+
+```
+php artisan key:generate
+```
+
+8. importa tutti i file che ti servono nelle relative cartelle e...
 
 ### CHE DIO CE LA MANDI BUONA!
