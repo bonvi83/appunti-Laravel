@@ -34,4 +34,28 @@ Route::get('/', function () {
 });
 ```
 
+## Creazione di un nuovo progetto da template
+
+1. scarica la repo ed impostala in VS Code
+
+2. installa Composer
+
+```
+composer install
+```
+
+3. instamma npn
+
+```
+npm install
+```
+
+4. avvia il server
+
+```
+npm run dev
+```
+
+5. copia il file `.env.example` e rinominalo `.env`
+
 ### CHE DIO CE LA MANDI BUONA!
